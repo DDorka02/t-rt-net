@@ -19,6 +19,11 @@ article{
     flex-wrap: wrap; 
 }
 
+.article2>div{
+    
+    margin: 0 auto;
+}
+
 article{
     flex: 0 0 40%;
 }
