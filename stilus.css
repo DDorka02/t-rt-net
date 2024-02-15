@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, footer, nav{
+    flex:0 0 100%
+}
+
+article{
+    flex: 0 0 ;
+}
+
+aside{
+    flex:0 0 ;
+}
