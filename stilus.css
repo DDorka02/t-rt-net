@@ -32,8 +32,15 @@ header{
     margin: 10px;
     font-size: xx-large;
 }
+footer{
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+    background-color: rgb(56, 56, 77);
+}
 nav{
-    background-color: rgb(168, 208, 219);
+    background-color: rgb(56, 56, 77);
+    color: white;
 }
 nav ul{
     display: flex;
@@ -45,6 +52,8 @@ nav ul{
 
 nav a{
     text-decoration: none;
+    color: white;
+
 }
 
 
