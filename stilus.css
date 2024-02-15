@@ -8,9 +8,20 @@ header, footer, nav{
 }
 
 article{
-    flex: 0 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0 100%;
+    
 }
 
 aside{
-    flex:0 0 ;
+    flex:0 0 50%;
+}
+
+article>div{
+    flex: 0 0 100%;
+}
+article>div>img{
+    width: 30%;
 }
