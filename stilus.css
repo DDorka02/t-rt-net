@@ -22,12 +22,20 @@ article{
 aside{
     flex:0 0 ;
 }
-
+header{
+    text-align: center;
+    margin: 10px;
+    font-size: xx-large;
+}
+nav{
+    background-color: rgb(168, 208, 219);
+}
 nav ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     gap: 10px;
+
 }
 
 nav a{
@@ -39,7 +47,7 @@ article>div{
     flex: 0 0 100%;
 }
 article>div>img{
-    width: 30%;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px){
