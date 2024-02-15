@@ -10,12 +10,19 @@ header, footer, nav{
 article{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
-    
+    justify-content: center;  
+}
+
+.article2{
+    display: flex;
+    flex-wrap: wrap; 
 }
 
 article{
+    flex: 0 0 50%;
+}
+
+.article2{
     flex: 0 0 50%;
 }
 
@@ -38,12 +45,10 @@ nav a{
 article>div{
     flex: 0 0 100%;
 }
-article>div>img{
-    width: 30%;
-}
+
 
 @media screen and (max-width: 600px){
-        
-    flex:0 0 50%;
+    header,nav,article,aside,footer{    
+        flex:0 0 50%;}
 }
 
