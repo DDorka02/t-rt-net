@@ -20,7 +20,7 @@ article{
 }
 
 article{
-    flex: 0 0 50%;
+    flex: 0 0 40%;
 }
 
 .article2{
@@ -65,8 +65,19 @@ article>div>img{
     width: 100%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     header,nav,article,aside,footer{    
         flex:0 0 50%;}
+        article{
+            flex: 0 0 60%;
+        }
 }
+@media screen and (max-width: 400px){
+    header,nav,article,aside,footer{    
+        flex:0 0 50%;}
+        article{
+            flex: 0 0 100%;
+        }
+}
+
 
