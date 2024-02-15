@@ -8,7 +8,15 @@ header, footer, nav{
 }
 
 article{
-    flex: 0 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+article{
+    flex: 0 0 50%;
 }
 
 aside{
@@ -26,11 +34,16 @@ nav a{
     text-decoration: none;
 }
 
-article{
-    display: flex;
-    flex-wrap: wrap;
+
+article>div{
+    flex: 0 0 100%;
+}
+article>div>img{
+    width: 30%;
 }
 
 @media screen and (max-width: 600px){
         
+    flex:0 0 50%;
 }
+
