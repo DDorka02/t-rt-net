@@ -14,3 +14,23 @@ article{
 aside{
     flex:0 0 ;
 }
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px){
+        
+}
