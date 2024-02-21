@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="John Doe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="description" content="Free Web tutorials" >
+    <meta name="keywords" content="HTML, CSS, JavaScript" >
+    <meta name="author" content="John Doe" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" href="stilus.css">
     <title>Dobszay Dorka</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <header>
-            <img src="1000012739.png" alt="logo"> 
-            <h1>Az Elveszett Lány</h1>
-        </header>
-        <nav>
-            <div>
-              <ul>
-                <li><a href="index.html">Kezdőlap</a></li>
-                <li><a href="urlap.html">Kérdőív</a></li>
-              </ul>
-              <form>
-                <label for="kereso">Kereső: </label>
-                <input type="search" name="kereso" id="kereso">
-              </form>
-              
-            </div>
-          </nav>
-        <article class="article2">
+      <header>
+        <img src="1000012739.png" alt="logo">
+        <h1>Az Elveszett Lány</h1>
+      </header>
+      <nav>
+        <div>
+          <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="urlap.html">Kérdőív</a></li>
+          </ul>
+          <form>
+            <label for="kereso">Kereső: </label>
+            <input type="search" name="kereso" id="kereso">
+          </form>
+        </div>
+      </nav>
+      <article class="article2">
+        <form>
+          <h2 class="keriv">Kérdőív:</h2>
+          <div>
+            <label for="ksz">Ki volt a kedvenc szereplőd?</label><br>
+            <input type="text" id="ksz" name="ksz" value="" >
+          </div><br>
+          <div>
+            <label for="rt">Melyik rész tetszett?</label><br >
+            <input type="text" id="rt" name="rt" value="" >
+          </div><br>
+          <div>
+            <label for="fdname">Milyen folytatást várnál?</label><br >
+            <input type="text" id="fdname" name="fdname" value="" >
+          </div><br>
+          <div>
+            <label for="lname">Milyen témájú képregények érdekelnek?</label><br>
             
-            <form>
-                <h2 class="keriv">Kérdőív:</h2>
-                <div>
-                    <label for="ksz">Ki volt a kedvenc szereplőd?</label><br>
-                    <input type="text" id="ksz" name="ksz" value=""></div>
-                <div>
-                    <label for="rt">Melyik rész tetszett?</label><br>
-                    <input type="text" id="rt" name="rt" value=""></div>
-                <div>
-                    <label for="fdname">Ki volt a kedvenc szereplőd?</label><br>
-                    <input type="text" id="fdname" name="fdname" value=""></div>
-                <div>
-                    <label for="lname">Melyik rész tetszett?</label><br>
-                    <input type="text" id="lname" name="lname" value=""></div>
-                <div>
-                    <label for="fname">Ki volt a kedvenc szereplőd?</label><br>
-                    <input type="text" id="fname" name="fname" value=""></div>
-                <div>
-                    <label for="ldfname">Melyik rész tetszett?</label><br>
-                    <input type="text" id="ldfname" name="ldfname" value=""></div>
-              </form>
-        </article>
-        <footer><p>Készítette:Dobszay Dorka, Albert Orsolya</p>
-            <p>@Minden jog fenntartva!</p>
-            </footer>
+            <input type="radio" name="radio" id="radio">
+            <label for="lname">Akció</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label for="lname">Romantikus</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label for="lname">Horror</label><br>
+            <input type="radio" name="radio" id="radio">
+            <label for="lname">Fantasy</label><br >
+          </div><br>
+          <div>
+            <label for="fname">Szerinted ez milyen témájú volt?</label><br >
+            <input type="text" id="fname" name="fname" value="" >
+          </div><br>
+
+          <div>
+            <input type="submit" value="Küldés" >
+          </div>
+        </form>
+      </article>
+      <footer>
+        <p>Készítette:Dobszay Dorka, Albert Orsolya</p>
+        <p>@Minden jog fenntartva!</p>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
